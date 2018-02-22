@@ -14,7 +14,7 @@ volatile int tiempo=0;
 volatile int t_apagar=0;
 
 #define ANTIREBOTE 300/freq //200 ms para antirrebote
-#define MINUTO 1000/freq
+#define MINUTO 1000/freq*60
 
 /*
 Enumeración de los estados de la máquina de Mealy
