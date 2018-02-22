@@ -7,14 +7,14 @@
 #define PULL_UP_0 0
 #define PULL_DOWN_15 15
 #define freq portTICK_RATE_MS
-#define PERIOD_TICK 20/freq
+#define PERIOD_TICK 20/freq //20 ms
 
 
 volatile int tiempo=0;
 volatile int t_apagar=0;
 
-#define ANTIREBOTE 300/freq //200 ms para antirrebote
-#define MINUTO 1000/freq*60
+#define ANTIREBOTE 300/freq //300 ms para antirrebote
+#define MINUTO 1000/freq*60  //1 minuto
 
 /*
 Enumeración de los estados de la máquina de Mealy
