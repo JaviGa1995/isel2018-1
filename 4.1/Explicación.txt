@@ -1,0 +1,4 @@
+El ejercicio realizado se ha planteado entendiendo el encendido/apagado como respuesta al estímulo de cada pulsación 
+del interruptor asociado a D3 (PULL-UP) y a D8 (PULL_DOWN). 
+Si no se pulsa nada se mantiene el estado (LED interno encendido o apagado). 
+Si se pulsan los dos al mismo tiempo solo toma en consideración uno de los dos por el efecto de la programación con antirrebotes.
