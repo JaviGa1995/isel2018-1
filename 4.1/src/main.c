@@ -5,12 +5,12 @@
 
 #define LED 2 // Led va asociado al 2
 #define PULL_UP_0 0
-#define PULL_DOWN_15 15
-#define PERIOD_TICK 20
-
+#define PULL_DOWN_15 15/freq
+#define PERIOD_TICK 20/freq
+#define freq portTICK_RATE_MS
 volatile int tiempo=0;
 
-#define ANTIREBOTE 200 //200 ms para antirrebote
+#define ANTIREBOTE 200/freq //200 ms para antirrebote
 
 /*
 Enumeración de los estados de la máquina de Mealy
