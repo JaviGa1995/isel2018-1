@@ -9,7 +9,7 @@
 #define freq portTICK_RATE_MS
 #define PERIOD_TICK 80/freq
 volatile int tiempo=0;
-#define SEGUNDO 2000/freq
+#define SEGUNDO 1000/freq
 #define ANTIRREBOTE 100/freq
 int flag_armar=0;
 volatile int c=0;
@@ -278,8 +278,7 @@ void inter(void* ignore)
       xLastWakeTime = xTaskGetTickCount (); //Almacenamos el tiempo actual
 
       fsm_fire(fsm1);
-//printf("%s %d \n", "este es el valor de c:    ",c);
-//printf("%s %d \n", "este es el valor de indice:    ",indice);
+
 if(flag_armar==1){
         fsm_fire(fsm2);
       }
