@@ -1,0 +1,7 @@
+Se ha programado en consonancia a:
+
+- Si pasan 3 segundos sin pulsado se resetea la situacion
+- hay cambio de digito si pasa 1 segundo
+- la alarma se entiende como el LED encendido
+- No se han usado interrupciones porque no lo exige el enunciado
+- se ha programado en forma de maquina extendida
