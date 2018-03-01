@@ -1,2 +1,2 @@
 # isel2018
-Nombres : Javier Gangoso Alvarez y Pedro Arias
+Nombres : Javier Gangoso Alvarez y Pedro Arias Feria
